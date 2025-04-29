@@ -1,3 +1,5 @@
+Le développement de l’extension (JavaScript, HTML, CSS) a été assisté par ChatGPT car je maitrise pas ces language afin d’accélérer la création et garantir une structure fonctionnelle.
+
 # 🧩 Vishap Scan Saver
 
 **Extension de navigateur** + **API locale Flask** pour suivre et enregistrer les chapitres lus sur des sites de scan manga.  
