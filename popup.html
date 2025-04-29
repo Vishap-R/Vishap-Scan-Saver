@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Scan Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="top-bar">
+    <h2 id="popup-title">📖 Derniers Chapitres</h2>
+    <input type="text" id="search" placeholder="🔍 Rechercher..." class="hidden">
+  </div>
+
+  <ul id="chapter-list"></ul>
+
+  <div id="settings-menu" class="hidden">
+    <button id="export-favorites">📑 Exporter en favoris</button>
+    <button id="toggle-compact">📏 Mode compact</button>
+  </div>
+
+  <div id="notification"></div>
+
+  <div id="control-buttons">
+    <button id="reset" class="hidden">🗑️ Réinitialiser</button>
+    <button id="settings">⚙️ Paramètres</button>
+  </div>
+
+  <div id="confirm-reset" class="hidden">
+    <p>Confirmer la réinitialisation ?</p>
+    <button id="confirm-yes">✅ Oui</button>
+    <button id="confirm-no">❌ Non</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  width: 320px;
+  margin: 15px;
+  background: #1e1e2f;
+  color: #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+#top-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #bb86fc;
+}
+
+#search {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-height: 250px;
+  overflow-y: auto;
+  transition: all 0.5s ease;
+}
+
+li {
+  background: #2a2a40;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 1.4;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  animation: fadeIn 0.5s ease;
+  transition: all 0.3s ease;
+}
+
+li.compact {
+  padding: 6px;
+  font-size: 13px;
+  background: #29293d;
+}
+
+
+li strong {
+  font-size: 16px;
+  color: #f8f8f8;
+}
+
+.chapter {
+  color: #a0a0b0;
+  font-size: 13px;
+}
+
+#control-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #bb86fc;
+  color: #1e1e2f;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #9b5de5;
+  transform: scale(1.03);
+}
+
+/* Notification */
+#notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff6b6b;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  display: none;
+  opacity: 0;
+  z-index: 10;
+  transition: opacity 0.5s, bottom 0.5s;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes smoothSlide {
+  0% { opacity: 0; transform: translateY(20px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+.fade-in {
+  animation: smoothSlide 0.4s ease forwards;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.settings-open #chapter-list,
+.settings-open #reset {
+  display: none;
+}

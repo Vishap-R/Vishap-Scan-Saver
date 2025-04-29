@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Vishap Scan Tracker",
+  "version": "1.0",
+  "description": "Extension pour suivre les chapitres lus.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Scan Tracker"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
