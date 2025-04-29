@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Vishap Scan Tracker",
+  "name": "Vishap Scan Saver",
   "version": "1.0",
   "description": "Extension pour suivre les chapitres lus.",
   "permissions": [
