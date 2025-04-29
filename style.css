@@ -129,3 +129,10 @@ button:hover {
 .settings-open #reset {
   display: none;
 }
+#dev-credit {
+  font-size: 15px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: gray;
+}
