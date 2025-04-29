@@ -5,6 +5,7 @@ Pas de compte, pas de cloud — juste ton navigateur et tes données locales.
 
 ---
 
+
 ## 🚀 Fonctionnalités
 
 - 🕵️ Détecte les chapitres lus sur les sites pris en charge
@@ -40,3 +41,10 @@ Pas de compte, pas de cloud — juste ton navigateur et tes données locales.
 ```bash
 pip install flask flask-cors
 python vishap.py
+
+### Image 🖼
+
+![image](https://github.com/user-attachments/assets/0a14b590-275c-4036-ad27-4d693b7df6c5)
+![image](https://github.com/user-attachments/assets/98966637-52a2-4db9-bde6-5580ffb9a7ed)
+
+
