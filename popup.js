@@ -117,20 +117,6 @@ document.addEventListener("DOMContentLoaded", () => {
     showNotification("Exporté en .json !");
   });
 
-  // Recherche live avec changement de page
-  searchInput.addEventListener("input", (e) => {
-    const searchTerm = e.target.value.toLowerCase();
-    const filtered = chapters.filter(item =>
-      item.nom_oeuvre.toLowerCase().includes(searchTerm) ||
-      (item.chapitre && item.chapitre.toString().includes(searchTerm))
-    );
-
-    if (filtered.length > 0) {
-      displayChapters(filtered);
-    } else {
-      list.innerHTML = "<li class='fade-in'>Aucun chapitre trouvé 📭</li>";
-    }
-  });
 
   // Notifications
   function showNotification(message) {
