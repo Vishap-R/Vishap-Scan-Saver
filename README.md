@@ -4,7 +4,11 @@
 Pas de compte, pas de cloud — juste ton navigateur et tes données locales.
 
 ---
+## 🚀 Fonctionnalités à venir
 
+-📏Mode compact
+- 🔍Barre de recherche
+- Plus de sites(si vous voulez proposer moi des site via discord)
 
 ## 🚀 Fonctionnalités
 
