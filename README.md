@@ -41,6 +41,7 @@ Pas de compte, pas de cloud — juste ton navigateur et tes données locales.
 ```bash
 pip install flask flask-cors
 python vishap.py
+```
 
 ---
 
