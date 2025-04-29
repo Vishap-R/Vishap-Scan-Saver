@@ -41,6 +41,9 @@ Pas de compte, pas de cloud — juste ton navigateur et tes données locales.
 2. Ouvre `chrome://extensions/` (ou `about:debugging` sur Firefox)
 3. Active **le mode développeur**
 4. Clique sur **Charger l’extension non empaquetée** et sélectionne le dossier
+5. Mettre vishap.py en .exe
+6. L'ajouter au démarrage du pc
+   
 
 ### 🧪 API locale (Flask)
 
